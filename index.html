@@ -18,6 +18,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
 </head>
 
 <body>
@@ -26,9 +27,8 @@
     <div id="close-video" onclick="endVideo()">
       <i class="fa-solid fa-xmark"></i>
     </div>
-    <iframe width="100%" height="99%" name="youtube embed" allow="autoplay; encrypted-media"
-            src="https://www.youtube.com/embed/YJSw3ougt9Y/?autoplay=1&mute=1">
-    </iframe>
+    <iframe id="vid_id" src="https://player.vimeo.com/video/524933864?h=1ac4fd9fb4&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
   </div>
   <div id="nav-wrap" class="nav-wrap">
     <nav class="nav wrap">
@@ -211,7 +211,7 @@
 
       <div class="gallery-slider-wrap">
         <div class="gallery-slider-nav">
-          <div onclick="galleryPrevSlide()" class="gallery-button-prev">
+          <div class="gallery-button-prev">
             <svg class="about-arrow" width="11" height="18" viewBox="0 0 11 18" fill="none"
                  xmlns="http://www.w3.org/2000/svg">
               <path
@@ -219,7 +219,7 @@
                 fill="#101b2b"/>
             </svg>
           </div>
-          <div onclick="galleryNextSlide()" class="gallery-button-next">
+          <div class="gallery-button-next">
             <svg class="about-arrow-right" width="11" height="18" viewBox="0 0 11 18" fill="none"
                  xmlns="http://www.w3.org/2000/svg">
               <path
@@ -268,6 +268,32 @@
                     <h4>La Via Delle Spezie</h4>
                     <p>
                       Molto recentemente sono stato invitato a suonare alla Via Delle Spezie di Reggio Emilia.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-slide-item">
+                <img class="gallery-slide-img" src="img/gallery-4.webp" alt="">
+                <div class="slide-bg">
+                  <div>
+                    <h4>Zouk Santana</h4>
+                    <p>
+                      Ho avuto il piacere di suonare nel locale di Milano Marittima Zouk Santana.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="gallery-slide-item">
+                <img class="gallery-slide-img" src="img/gallery-4.webp" alt="">
+                <div class="slide-bg">
+                  <div>
+                    <h4>Zouk Santana</h4>
+                    <p>
+                      Ho avuto il piacere di suonare nel locale di Milano Marittima Zouk Santana.
                     </p>
                   </div>
                 </div>
