@@ -236,7 +236,7 @@ const swiperGallery = new Swiper('.swiper-gallery', {
   },
   breakpoints: {
     // mobile + tablet - 320-990
-    550: {
+    650: {
       slidesPerView: 2
     },
     // desktop >= 991

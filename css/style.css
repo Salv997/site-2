@@ -1113,6 +1113,19 @@ nav {
   .preview-text {
     margin-bottom: 20px;
   }
+  .gallery-slide-item{
+    padding: 0 1rem;
+  }
+  .slide-bg{
+    width: calc(100% - 2rem);
+    left: 50%;
+    transform: translateX(-50%);
+    height: 40%;
+  }
+  .gallery-button-next,
+  .gallery-button-prev{
+    display: none;
+  }
 
   .comment {
     width: 290px !important;
