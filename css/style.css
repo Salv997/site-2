@@ -1126,6 +1126,10 @@ nav {
   .gallery-button-prev{
     display: none;
   }
+  .about-text,
+  .gallery-subtitle{
+    font-size: 18px;
+  }
 
   .comment {
     width: 290px !important;
