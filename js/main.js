@@ -44,7 +44,6 @@ const checkElement = (element, link) => {
   const  offset   = elemRect.top - bodyRect.top;
 
   if (window.scrollY > offset && window.scrollY < offset + element.clientHeight) {
-    console.log("add")
     link.classList.add("nav-link-active")
   }
 }
