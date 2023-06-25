@@ -72,8 +72,8 @@ ul li {
 }
 
 .nav-link-active a {
-  color: #FF4581 !important;
-  border-bottom: 1px solid #FF4581;
+  color: #AB2E56 !important;
+  border-bottom: 1px solid #AB2E56;
 }
 
 .logo {
@@ -191,7 +191,7 @@ nav {
 .preview-button {
   border: none;
   padding: 14px 52px;
-  background: #FF4581;
+  background: #AB2E56;
   font-family: 'Sarabun', sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -391,19 +391,19 @@ nav {
   font-size: 14px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #FF4581;
+  color: #AB2E56;
   position: absolute;
   bottom: -50px;
   left: -38px;
 }
 
 .process-item-2 .process-bottom-dec-circe {
-  background-color: #FF4581 !important;
+  background-color: #AB2E56 !important;
 }
 
 .process-item-top {
   height: 274px;
-  border-left: 1px solid #FF4581;
+  border-left: 1px solid #AB2E56;
   padding-left: 20px;
   padding-right: 20px;
   position: relative;
@@ -858,9 +858,8 @@ nav {
 }
 
 .connected-btn {
-  
   padding: 14px 52px;
-  background: #FF4581;
+  background: #AB2E56;
   display: flex;
   justify-content: center;
   align-items: center;
