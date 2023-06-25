@@ -228,6 +228,7 @@ const animate = () => {
 const swiperGallery = new Swiper('.swiper-gallery', {
   // Optional parameters
   direction: 'horizontal',
+  loop: true,
   slidesPerView: 1,
   spaceBetween: 30,
   pagination: {
